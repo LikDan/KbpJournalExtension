@@ -1,0 +1,14 @@
+{
+    "name": "Keyboard control",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Control the journal with keyboard",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],  
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
