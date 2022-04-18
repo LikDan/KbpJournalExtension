@@ -125,7 +125,7 @@ function init() {
 
 
 chrome.action.onClicked.addListener((tab) => {
-    if (tab.url != "https://kbp.by/ej/teather_journal.php") return
+    if (tab.url != "https://kbp.by/ej/teather_journal.php" && tab.url != "http://kbp.by/ej/teather_journal.php") return
 
     chrome.scripting.executeScript({
         target: { tabId: tab.id },
